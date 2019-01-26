@@ -5,27 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
     <header>
-        <h1><div>Eric Crawford</div></h1>
         
-        <nav>
-            <div>About</div>
-            <div>Portfolio</div>
-            <div>Contact</div>
-        </nav>
+        <div class="headerMargin">
+
+            <nav class ="navBar">
+                <a href="index.html" class="about">About</a>
+                <a href="portfolio.html" class="portfolio">Portfolio</a>
+                <a href="contact.html" class="contact">Contact</a>
+            </nav>
+
+            <div class="name"><h2>Eric Crawford</h2></div>
+
+        </div>
     
     </header>
     
-    <article>
-        <h1>About Me</h1>
+    <article class="mainContainer">
 
-        <div>
+            <h1 class="mainHeader">About Me</h1>
+
+        <div class="pFormat">
             
-            <img src="#" alt="Photo of me">
+            <img class="imageContainer" src="assets/images/placeholder3.jpg" alt="Photo of me">
+
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed libero mi, imperdiet sit amet luctus vitae, finibus in mi. Praesent malesuada erat auctor ipsum vehicula molestie. Maecenas non euismod nisl. Maecenas ut nunc odio. Phasellus in magna quis lacus pharetra ultrices. Sed rhoncus arcu congue, viverra mauris bibendum, vehicula leo. Cras sodales vitae ex quis porta.
             </p>
@@ -37,14 +45,14 @@
             <p>
                 Vivamus facilisis porttitor massa, tempus egestas purus sagittis vitae. Nulla facilisi. Integer nec viverra ante, non iaculis nibh. In malesuada tempor urna a pellentesque. Donec at augue eu dui varius bibendum. Praesent non augue eu nunc vulputate efficitur. Maecenas rhoncus eget magna quis efficitur.
             </p>
+            
         </div>
 
     </article>
 
     <footer>
-
-        <div></div>
-        <div>Copyright©</div>
+        
+        <div class="copyright">Copyright©</div>
 
     </footer>
 </body>
