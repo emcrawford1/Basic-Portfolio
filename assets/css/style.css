@@ -1,5 +1,9 @@
 
-/* All styles */
+/* All styles (starting with Index.html file */
+
+li{
+    display: inline;
+}
 
 header{
     background-color: #ffffff;
@@ -17,7 +21,6 @@ header{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #ffffff;
     opacity: 0.95;
-    -moz-osx-font-smoothing: grayscale; 
     text-rendering: optimizeLegibility; 
     text-rendering: geometricPrecision;
     font-size: 30px;
@@ -32,7 +35,6 @@ header{
 
 body{
     background-image: url("../images/background5.png");
-    /* overflow: hidden; */
 }
 
 p{
@@ -63,6 +65,7 @@ p{
     border-style: solid;
     overflow: auto;
     height: 595px;
+ 
  
 }
 
@@ -102,8 +105,7 @@ p{
     border-right-style: solid;
     border-right-color: #dddddd;
     border-right-width: 1px;
-    padding-right: 5px;
-    padding-left: 3px;
+    padding-right: 3px;
     margin-left: 0px;
     text-decoration: none;
    
@@ -113,17 +115,13 @@ p{
 .contact{
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
-    padding-left: 3px;
     margin-left: 0px;
     text-decoration: none;
-    
-
 
 }
 
 .mainHeader{
     color: #4aaaa5;
-    -moz-osx-font-smoothing: grayscale; 
     font-size: 30px;
     border-bottom-style: solid;
     border-bottom-color: #dddddd;
@@ -136,8 +134,7 @@ p{
 .pFormat{
     color:#777777;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    -moz-osx-font-smoothing: grayscale; 
+    font-size: 18px; 
     line-height: 1.9;
 }
 
@@ -145,7 +142,7 @@ footer{
     background-color:#666666;
     border-top-style: solid;
     border-top-color: #4aaaa5;
-    border-top-width: 9px;
+    border-top-width: 8px;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -164,9 +161,6 @@ footer{
     font-size: 12px;
 }
 
-::-webkit-scrollbar { 
-    display: none; 
-}
 
 /* Styles specific to the portfolio/gallery page */
 
@@ -207,10 +201,6 @@ span{
 
 
 /* Styling for contact form */
-
-.formControls{
-
-}
 
 label{
     float: left;
